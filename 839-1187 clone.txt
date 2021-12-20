@@ -1,0 +1,113 @@
+All connectors are NH series.
+Connectors: H4P-SHF-AA, H6P-SHF-AA
+Pins: SHF-001T-0.8BS
+
+
+CN1 - B4P-SHF-1AA
+CN2 - B6P-SHF-1AA
+
+
+bottom copper = positive
+top copper = negative
+
+
+* C1  - 100nF ceramic
+* C2  - 100nF ceramic
+* C3  - 47pF ceramic
+* C4  - 100nF ceramic
+* C5  - 47pF ceramic
+* C6  - 16V 10uF polarized electrolytic
+* C7  - 100nF ceramic
+* C8  - 100nF ceramic
+* C9  - 16V 10uF polarized tantalum
+* C10 - 16V 10uF polarized tantalum
+
+
+* R1  - 33K Ohm 5%
+* R2  - 100K Ohm 5%
+* R3  - 4.3K Ohm 5%
+* R4  - 68 Ohm 5%
+* R5  - 2.2K Ohm 5%
+* R6  - 68 Ohm 5%
+* R7  - 4.3K Ohm 5%
+* R8  - 2.2K Ohm 5%
+* R9  - 100K Ohm 5%
+* R10 - 33K Ohm 5%
+* R11 - 100K Ohm 5%
+* R12 - 100K Ohm 5%
+
+All resistors are 3mm 1/8W.
+
+
+BOM
+===
+x 5   16V 0.1uF ceramic
+x 2   16V 47pF ceramic
+x 1   16V 10uF polarized electrolytic
+x 2   16V 10uF polarized tantalum
+
+x 2   33K 5% 1/8W
+x 4   100K 5% 1/8W
+x 2   4.3K 5% 1/8W
+x 2   68 5% 1/8W
+x 2   2.2K 5% 1/8W
+
+x 1   LMC662CN DIP8
+
+
+BOM w/ Links
+============
+1x    LMC662CN/NOPB        LMC662CN DIP8                       https://www.mouser.com/ProductDetail/Texas-Instruments/LMC662CN-NOPB/?qs=QbsRYf82W3FrxxCNOWuNEg%3D%3D
+
+5x    K104K15X7RF53H5      16V 0.1uF ceramic                   https://www.mouser.com/ProductDetail/Vishay-BC-Components/K104K15X7RF53H5/?qs=sYfpZ29HcUSlgH5bSUHkYw%3D%3D
+2x    FG18C0G1H470JNT00    16V 47pF ceramic                    https://www.mouser.com/ProductDetail/TDK/FG18C0G1H470JNT00?qs=vNwBHymccZ%2Fd9hU2kvjlWw%3D%3D
+1x    860010372001         16V 10uF polarized electrolytic     https://www.mouser.com/ProductDetail/Wurth-Elektronik/860010372001/?qs=0KOYDY2FL29NKHIi2kspeA%3D%3D
+2x    TAP106K016SCS        16V 10uF polarized tantalum         https://www.mouser.com/ProductDetail/AVX/TAP106K016SCS/?qs=WgtGjR6Dmqz8oMYWYMRM0g%3D%3D
+
+The following have 200 minimum order (about $5 per order):
+2x    270-68-RC            68 5% 1/8W                          https://www.mouser.com/ProductDetail/Xicon/270-68-RC?qs=5C%252B0%2FeH9C1tB1OAbJp8uBA%3D%3D
+2x    270-2.2K-RC          2.2K 5% 1/8W                        https://www.mouser.com/ProductDetail/Xicon/270-22K-RC/?qs=WrFiEaQtFETnyPp4sOfIww%3D%3D
+2x    299-4.3K-RC          4.3K 5% 1/8W                        https://www.mouser.com/ProductDetail/Xicon/299-43K-RC?qs=LEia1uDHquV5sGFY7BA1sA%3D%3D
+2x    270-33K-RC           33K 5% 1/8W                         https://www.mouser.com/ProductDetail/Xicon/270-33K-RC?qs=lYA2V654oDQN2uv%252Bfp82ZQ%3D%3D
+4x    270-100K-RC          100K 5% 1/8W                        https://www.mouser.com/ProductDetail/Xicon/270-100K-RC/?qs=5yeVutMVYBApAPTv5w%252BmVQ%3D%3D
+
+
+DigiKey Only
+============
+x 1   B4P-SHF-1AA (https://www.digikey.com/product-detail/en/jst-sales-america-inc/B4P-SHF-1AA-LF-SN/455-4179-ND/1885771)
+x 1   B6P-SHF-1AA (https://www.digikey.com/product-detail/en/jst-sales-america-inc/B6P-SHF-1AA-LF-SN/455-4181-ND/1885773)
+
+
+All digikey parts are ROHS compliant.
+All mouser parts are ROHS compliant.
+
+
+Board tests fine in my Monkey Ball! Spacing on drill holes is also fine. Will need some sort of plastic spacers.
+
+
+Games this works with
+=====================
+Monkey Ball
+Sega Strike Fighter
+Planet Harriers
+
+
+TODO
+====
+Plastic spacers for mounting.
+
+
+NNC Harness
+===========
+Ground connector: https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/176271-1/176271-1-ND/2258969
+Analog connector: https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/176275-1/A106904-ND/2055442
+Digital connector: https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/176278-1/A106906-ND/2328020
+Ground pins: https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/175152-1/A100484CT-ND/2233090
+Other pins: https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/175151-1/A107106CT-ND/3488667
+
+4-Pin Analog connector: https://www.digikey.com/product-detail/en/jst-sales-america-inc/H4P-SHF-AA/455-4191-ND/691799
+6-Pin Analog connector: https://www.digikey.com/product-detail/en/jst-sales-america-inc/H6P-SHF-AA/455-4193-ND/1885755
+Analog pins: https://www.digikey.com/product-detail/en/jst-sales-america-inc/SHF-001T-0.8BS/455-1121-1-ND/527350
+
+Start button quick disconnects: https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/42068-1/A27747CT-ND/456835
+22 Gauge Wire: Pololu has this for cheapest.
